@@ -2,10 +2,11 @@ import React, { Component } from "react";
 
 class Incrementor extends Component {
   render() {
+    const { increase } = this.props;
     return (
-      <div>
+      <button onClick={increase}>
         ++
-        </div>
+      </button>
     );
   }
 }

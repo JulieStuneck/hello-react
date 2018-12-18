@@ -1,0 +1,13 @@
+.container {
+    background-color: #8a6565;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 5em;
+}
+
+.container button {
+    background-color: dodgerblue;
+    border-radius: 25%;
+}
+
